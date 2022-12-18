@@ -110,5 +110,33 @@ a {
     color: #1F2937;
     width: 150px;
     height: auto;
-    padding: 8px 0px 64px 0px;
+    padding: 8px 0px 120px 0px;
+}
+
+.quote-div {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.quote-box {
+    flex-shrink: 0;
+    padding: 120px 360px 8px 360px;
+}
+
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#auth {
+    flex-shrink: 0;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 8px 360px 0px 0px;
+    align-self: flex-end;
 }
