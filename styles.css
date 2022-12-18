@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 8px 240px 0px 240px;
+    padding: 16px 240px 0px 240px;
 }
 
 #header_logo {
@@ -42,9 +42,9 @@ a {
     background-color: #1F2937;
 }
 
-.hero-left {
+/* .hero-left {
     flex: 1;
-}
+} */
 
 #big_text {
     font-size: 48px;
@@ -68,7 +68,6 @@ a {
 
 .hero-right {
     padding-left: 24px;
-    flex: 1;
 }
 
 #main_img {
@@ -139,4 +138,54 @@ a {
     font-weight: bolder;
     padding: 8px 360px 0px 0px;
     align-self: flex-end;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 120px 180px 120px 180px;
+    padding: 50px 60px 50px 60px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.left {
+    flex: 2;
+}
+
+.cta-head {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-body {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+#sign_up_2 {
+    border: 3px solid #F9FAF8;
+    padding: 4px 16px 4px 16px;
+    border-radius: 25px;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+}
+
+.footer-content {
+    color: #E5E7EB;
+    font-size: 16px;
 }
